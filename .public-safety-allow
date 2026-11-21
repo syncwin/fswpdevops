@@ -19,3 +19,5 @@ email:docs/github-integration.md:support@syncwin.com
 drive-path:AGENTS.md:A:\Automation
 email:.claude-plugin/plugin.json:support@syncwin.com
 email:skills/fswp-release-manager/references/plugin-guidelines.md:plugins@wordpress.org
+email:skills/fswpdevops-release/references/plugin-guidelines.md:plugins@wordpress.org
+email:skills/fswp-release-manager/references/plugin-guidelines.md:plugins@wordpress.org
