@@ -18,7 +18,8 @@ Order of preference: core block with theme.json styling, then a block variation 
 2. Tokens first (`references/design-language.md`), then templates and patterns, then states, then admin screens.
 3. Reuse ladder: existing pattern or preset, adapt, build new; new items name the gap.
 4. One primary action per template or screen; clear next step.
-5. Visual evidence at the end (`references/design-language.md`, section Evidence); then hand to `fswpdevops-critic`.
+5. Design plan before code: read or create `DESIGN.md` at the project root (master file: direction, tokens, "Avoid" list); with no direction yet, write the plan from `references/design-direction.md` and copy the product's lines from `references/anti-patterns.md`. Baseline rules always apply: `references/baseline-ui.md`.
+6. Visual evidence at the end (`references/design-language.md`, section Evidence): shoot at 390x844 and 1440x900, fix, re-shoot; then hand to `fswpdevops-critic`. Focused passes the critic recommends run here: `fswpdevops-critic/references/focused-passes.md`.
 
 ## States
 Empty, no results, 404, error, loading, success notice, disabled, long text, RTL, logged-in and logged-out. Admin screens: one primary button, notices announced, destructive actions confirmed.

@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.9.0] - 2026-11-22
+
+### Added
+- UI upgrade adapted from the app plugin for WordPress: `fswpdevops-design/references/design-direction.md` (design plan before code), `anti-patterns.md` (Avoid lists by product type) and `baseline-ui.md` (hard rules incl. web a11y); `fswpdevops-critic/references/focused-passes.md` (bolder, quieter, typeset, layout, polish). The critic scores each lens 0 to 4 and recommends at most two passes (still read-only); design reads or creates `DESIGN.md` at the project root and shoots at 390x844 and 1440x900, fixes, re-shoots.
+- `fswpdevops-block` and `fswpdevops-theme`: figures in templates and patterns come from the site's data shortcode or dynamic source, never hard-coded.
+- `fswpdevops-release`: connector releases that need full file text per call push a CHANGELOG or FEATURES file over about 30 KB with local git commands.
+
+### Changed
+- AGENTS.md model routing default now says to check worker tool needs before a model override.
+
 ## [0.8.1] - 2026-11-14
 
 ### Fixed

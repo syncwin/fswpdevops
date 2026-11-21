@@ -10,6 +10,11 @@ Full-Stack WP DevOps is one MIT-licensed package. Every skill, script, and refer
 | [OWASP secure-agent-playbook](https://github.com/OWASP/secure-agent-playbook) | The idea of structured security review with weakness IDs | CC BY 4.0 |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | The idea of path-scoped, project-owned review rules | Apache-2.0 |
 | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | The minimal-code order of operations (the lean ladder in `adapters/claude/skills/fswpdevops/references/lean-coding.md`, rewritten in our own words) and reviewing for over-engineering | MIT |
+| [anthropics/skills](https://github.com/anthropics/skills) `frontend-design`, `webapp-testing` | A short design plan before code and a check against generic generated defaults; look before acting (shoot, fix, re-shoot) (`fswpdevops-design/references/design-direction.md`) | Apache-2.0 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Product-type anti-pattern lists and a master design file (`fswpdevops-design/references/anti-patterns.md`) | MIT |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Lens scores 0 to 4 and narrow focused passes (`fswpdevops-critic/references/focused-passes.md`) | Apache-2.0 |
+| [ibelick/ui-skills](https://github.com/ibelick/ui-skills) `baseline-ui` | Strict baseline rules (`fswpdevops-design/references/baseline-ui.md`) | MIT |
+| [vercel-labs/web-interface-guidelines](https://github.com/vercel-labs/web-interface-guidelines) | Web accessibility checks: visible focus, switch roles, labelled fields, target size | MIT |
 
 Tools such as PHPCS, WordPress Coding Standards, PHPStan, and WordPress stubs are downloaded on demand by the `setup_toolchain` recipe from their own projects and are not part of this package.
 
