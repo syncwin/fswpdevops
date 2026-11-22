@@ -84,4 +84,6 @@ When the build will span sessions, write both files into the plugin repo root (n
 
 Update both at every stop, and before ending any session that did not finish.
 
+When an agent will write the change, plan it as an issue with acceptance criteria and tests first: `fswpdevops/references/factory-workflow.md`.
+
 Finish with a scratchpad: work type, answers, PRD or change-brief path, approval status.

@@ -33,4 +33,6 @@ Security/quality: one final line, `ship` or `fix first`, with the Critical and I
 
 This skill never reads the build transcript. In Claude Code the `fswpdevops-code-review` agent enforces that. Without agents, disclose the run as a self-review.
 
+Merge gate for agent-written PRs (tests passed, review approved, scope matches the issue; the requester does not approve; optional holdout scenarios): `fswpdevops/references/factory-workflow.md`.
+
 Finish with a scratchpad: lens, findings by severity, fixes applied, open items.

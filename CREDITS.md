@@ -15,6 +15,7 @@ Full-Stack WP DevOps is one MIT-licensed package. Every skill, script, and refer
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Lens scores 0 to 4 and narrow focused passes (`fswpdevops-critic/references/focused-passes.md`) | Apache-2.0 |
 | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) `baseline-ui` | Strict baseline rules (`fswpdevops-design/references/baseline-ui.md`) | MIT |
 | [vercel-labs/web-interface-guidelines](https://github.com/vercel-labs/web-interface-guidelines) | Web accessibility checks: visible focus, switch roles, labelled fields, target size | MIT |
+| Public talks on agent-written PRs | SDLC agent-factory pattern (`fswpdevops/references/factory-workflow.md`) | n/a (idea only) |
 
 Tools such as PHPCS, WordPress Coding Standards, PHPStan, and WordPress stubs are downloaded on demand by the `setup_toolchain` recipe from their own projects and are not part of this package.
 
