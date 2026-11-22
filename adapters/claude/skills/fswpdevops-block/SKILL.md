@@ -41,6 +41,7 @@ Apply the lean ladder (`fswpdevops/references/lean-coding.md`): core blocks, pat
 - Editor markup must use `useBlockProps()`; dynamic PHP uses `get_block_wrapper_attributes()`.
 - `render.php` (block.json `render`, WordPress 6.1+) receives `$attributes`, `$content`, and `$block` (a `WP_Block`). It loads once per block instance on the page, so never declare functions or classes inside it; call shared code from another file.
 - **Scripts vs modules:** `viewScript` is for classic scripts (and anything depending on WordPress scripts); `viewScriptModule` (6.5+) is for script modules such as the Interactivity API. They are not interchangeable, so do not mix dependencies across the two.
+- Figures (prices, counts, dates, stats) in block templates, patterns and variations are never typed in: print them through the site's data shortcode or dynamic source (Block Bindings or a dynamic block); placeholders only in pattern demo content.
 - Escape everything in `render.php` (`fswpdevops-security`); attributes are user input.
 - Changing saved markup of a shipped static block breaks existing content. Add a `deprecated` entry with the old `save`, attributes, and a `migrate` function, then change the block.
 - Translate strings (`__()` with the text domain) in JS and PHP; `wp_set_script_translations` or block.json `textdomain`.

@@ -19,3 +19,9 @@ email:docs/github-integration.md:support@syncwin.com
 drive-path:AGENTS.md:A:\Automation
 email:.claude-plugin/plugin.json:support@syncwin.com
 email:skills/fswp-release-manager/references/plugin-guidelines.md:plugins@wordpress.org
+email:skills/fswpdevops-release/references/plugin-guidelines.md:plugins@wordpress.org
+email:skills/fswp-release-manager/references/plugin-guidelines.md:plugins@wordpress.org
+# 2026-11-22 owner-approved: old-history findings (public support address, WordPress.org team address, old local path), matched by hash
+email:*:sha256:d92a214b6160
+drive-path:*AGENTS.md:sha256:dc5b5845f996
+email:*plugin-guidelines.md:sha256:f2a53dd1b557

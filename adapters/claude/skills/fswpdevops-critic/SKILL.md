@@ -30,6 +30,8 @@ One pass per lens, rubric in `references/ux-rubric.md`:
 
 Laws of UX explain a finding; they never create one.
 
+Score each lens 0 to 4 from its findings (0 none open, 4 blocks the task); the score summarises, findings decide. Check screens against the "Avoid" list in the project's `DESIGN.md`.
+
 ## Step 3: Findings
 Only confidence 80 or higher:
 ```
@@ -45,7 +47,7 @@ Fix: <smallest change> (owner: fswpdevops-design|fswpdevops-theme|...)
 - Up to 3 "Keep" lines: what works and must not regress.
 
 ## Step 4: Verdict
-One line per lens (pass, pass with notes, fail), then one overall line: `Ready`, `Ready after fixes: N Critical, M Important` or `Not ready: <reason>`; add `code-only` when there was no rendered evidence. No numeric score.
+One line per lens (pass, pass with notes, fail, with its 0-4 score), then up to two recommended focused passes per screen (`references/focused-passes.md`; `fswpdevops-design` runs them, the critic never edits), then one overall line: `Ready`, `Ready after fixes: N Critical, M Important` or `Not ready: <reason>`; add `code-only` when there was no rendered evidence. No numeric score.
 
 Critique of the owner's own design idea: strongest objection first, then what would answer it.
 

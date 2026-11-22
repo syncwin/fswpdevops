@@ -24,7 +24,8 @@ The published rules are authoritative and change; the summaries here were checke
 5. No development files in the zip: no `.git`, `node_modules`, tests, editor configs, `.sh` or `.xml` files in themes, zip files inside the package. Compiled assets ship with their source and build steps.
 6. Zip has the plugin or theme folder at its root, named with the slug, built from a clean checkout of the tag, with a SHA-256 checksum next to it (private distribution: sign it with the owner's key, never store keys in the repo).
 7. Install the final zip on a clean site: activate, use, deactivate, delete (or mark NOT RUN and hand to the user).
-8. For WordPress.org: submission notes, contact email that reaches a human, and answers ready for reviewer questions.
+8. GitHub connector releases: if the connector needs the full file text on every call, a `CHANGELOG.md` or FEATURES file over about 30 KB cannot go through it; push that change with local `git` commands (`git add`, `git commit`, `git push` on the release branch) and use the connector for the rest.
+9. For WordPress.org: submission notes, contact email that reaches a human, and answers ready for reviewer questions.
 
 ## Licensing in one paragraph
 

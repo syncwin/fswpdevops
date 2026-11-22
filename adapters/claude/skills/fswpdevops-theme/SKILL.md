@@ -25,7 +25,7 @@ Apply the lean ladder (`fswpdevops/references/lean-coding.md`): core blocks, pat
 1. **Scaffold**: follow `references/scaffold_theme.md` to generate the skeleton (block, classic, or child). Run the gate in `fswpdevops-qa/references/run_gate.md` with the fix option once.
 2. **Design tokens**: define palette, typography, spacing, layout widths, and border/shadow presets in `theme.json` (block/hybrid) or in CSS custom properties (classic). Use presets in templates and patterns instead of hard-coded values.
 3. **Templates**: build the hierarchy the PRD needs (front page, home, single, page, archive, search, 404, plus any custom templates). Reuse template parts for header, footer, and repeated sections.
-4. **Patterns**: register reusable layouts as files in `patterns/` (header comment: Title, Slug, Categories, optional Keywords, Viewport Width, Block Types). No remote images.
+4. **Patterns**: register reusable layouts as files in `patterns/` (header comment: Title, Slug, Categories, optional Keywords, Viewport Width, Block Types). No remote images. Templates and patterns print figures (prices, counts, dates, stats) through the site's data shortcode or dynamic source, never hard-coded numbers.
 5. **Style variations**: JSON files in `styles/` for alternate looks; keep them small overrides of `theme.json`.
 6. **Custom blocks or interactivity** the theme really needs: `fswpdevops-block`. Otherwise prefer core blocks.
 7. **Assets**: enqueue with `wp_enqueue_scripts` (classic) or `theme.json`/`add_editor_style` (block); bundle fonts locally (`fontFace` entries) with their licenses; no CDN links.

@@ -30,7 +30,7 @@ Full-Stack WP DevOps Claude plugin: WordPress plugin, theme, block, Core and add
 - Say "WP", not "WordPress", in plugin and skill names (trademark policy, `docs/trademarks.md`). Foundational rules live once in `adapters/claude/skills/fswpdevops/references/`.
 
 ## Model routing
-Opus plans, decides, writes self-contained briefs with a report word limit, and reviews every result. Haiku for search, reading and mechanical edits. Sonnet for coding, tests and multi-step work. Do 1-2 tool calls inline.
+Default: the top model (Opus) plans, decides, writes self-contained briefs with a report word limit, and reviews every result. Haiku for search, reading and mechanical edits. Sonnet for coding, tests and multi-step work. Do 1-2 tool calls inline. Before overriding a worker's model, check the worker's tool needs (a cheaper model may lack a tool the job requires).
 
 ## Docs
 README.md, CONTRIBUTING.md, CHANGELOG.md, HANDOFF.md, docs/; ideas and feedback in `IMPROVEMENTS.md`.
