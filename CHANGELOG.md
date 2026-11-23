@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.2: 2026-11-23
+
+**Changed**
+- Code-review agent: removed the `skills` frontmatter key (directory gate D020); its body already loads fswpdevops-review.
+
 ## [0.9.1] - 2026-11-22
 
 ### Added
