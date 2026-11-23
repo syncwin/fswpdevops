@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.9.1] - 2026-11-22
+
+### Added
+- Agent factory workflow reference `fswpdevops/references/factory-workflow.md`: issue with acceptance criteria first, tests first, own worktree and branch, CI with bounded fix retries, merge gate (tests, review, scope), human review by someone other than the requester, optional holdout scenarios, start small. One-line pointers in `fswpdevops-plan`, `fswpdevops-qa` and `fswpdevops-review`.
+
 ## [0.9.0] - 2026-11-22
 
 ### Added

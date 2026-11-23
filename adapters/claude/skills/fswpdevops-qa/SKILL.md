@@ -60,4 +60,6 @@ After everything above is green: `references/release-check.md`.
 
 One table: check | PASS/FAIL/NOT RUN | detail. Then FAIL list with file and line, then what the user must run themselves. For multi-session builds, copy the table into `HANDOFF.md`.
 
+Agent-written PR: the tests named in the issue must exist and pass, with bounded fix retries: `fswpdevops/references/factory-workflow.md`.
+
 Finish with a scratchpad: the gate table, scope findings, skipped checks and why.
